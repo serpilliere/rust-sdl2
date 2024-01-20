@@ -5371,6 +5371,19 @@ extern "C" {
     #[doc = " \\sa SDL_SetClipboardText"]
     pub fn SDL_HasClipboardText() -> SDL_bool;
 }
+extern "C" {
+    #[doc = " Put UTF-8 text into the primary selection."]
+    #[doc = ""]
+    #[doc = "\\param text the text to store in the primary selection"]
+    #[doc = "\\returns 0 on success or a negative error code on failure; call"]
+    #[doc = "         SDL_GetError() for more information."]
+    #[doc = ""]
+    #[doc = "\\since This function is available since SDL 2.26.0."]
+    #[doc = ""]
+    #[doc = "\\sa SDL_GetPrimarySelectionText"]
+    #[doc = "\\sa SDL_HasPrimarySelectionText"]
+    pub fn SDL_SetPrimarySelectionText(text: *const libc::c_char) -> libc::c_int;
+}
 pub type __m64 = [libc::c_longlong; 1usize];
 pub type __v1di = [libc::c_longlong; 1usize];
 pub type __v2si = [libc::c_int; 2usize];
