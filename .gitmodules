@@ -1,4 +1,4 @@
 [submodule "sdl2-sys/SDL"]
 	path = sdl2-sys/SDL
 	url = https://github.com/serpilliere/SDL
-	bracnh = fix_ralt_fsd
+	branch = fix_ralt
