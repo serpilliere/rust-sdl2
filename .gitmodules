@@ -1,4 +1,4 @@
 [submodule "sdl2-sys/SDL"]
 	path = sdl2-sys/SDL
 	url = https://github.com/serpilliere/SDL
-	branch = fix_ralt
+	branch = test_keys
