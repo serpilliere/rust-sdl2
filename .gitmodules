@@ -1,4 +1,4 @@
 [submodule "sdl2-sys/SDL"]
 	path = sdl2-sys/SDL
 	url = https://github.com/libsdl-org/SDL
-	commit = 8a5ba43d00252c6c8b33c9aa4f1048222955ab4d
+	commit = 859844eae358447be8d66e6da59b6fb3df0ed778
