@@ -1,4 +1,4 @@
 [submodule "sdl2-sys/SDL"]
 	path = sdl2-sys/SDL
-	url = https://github.com/serpilliere/SDL
-	branch = fix_altgr_scancode_2_26_4
+	url = https://github.com/libsdl-org/SDL
+	commit = ac13ca9ab691e13e8eebe9684740ddcb0d716203
